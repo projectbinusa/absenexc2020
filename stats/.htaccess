@@ -1,0 +1,7 @@
+AuthName "absensi.dinartechshare-e.com statistics"
+AuthType Basic
+AuthUserFile /home/dinartechshare-e/domains/absensi.dinartechshare-e.com/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
